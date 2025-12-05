@@ -1,4 +1,4 @@
-          name: Auto Network Deployment
+name: Auto Network Deployment
 
 on:
   push:
