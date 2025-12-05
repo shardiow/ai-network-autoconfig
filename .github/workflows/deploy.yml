@@ -6,7 +6,6 @@ on:
       - main
     paths:
       - "desired-configs/**"
-jobs: # <--- THIS LINE MUST BE AT COLUMN 1
   deploy:
     runs-on: ubuntu-latest
     permissions:
