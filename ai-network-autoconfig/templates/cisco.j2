@@ -1,10 +1,6 @@
-hostname {{ hostname }}
-!
-interface GigabitEthernet0/0
- ip address {{ ip }} {{ mask }}
- no shut
-!
-router ospf 1
- network {{ network }} area 0
-!
-end
+{
+    "hostname": "R1-DUMMY-CISCO",
+    "ip": "172.16.10.1",
+    "mask": "255.255.255.0",
+    "network": "172.16.10.0"
+}
